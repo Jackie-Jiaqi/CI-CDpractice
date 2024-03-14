@@ -2,6 +2,7 @@ import { Collection, MongoClient, ObjectId, ServerApiVersion } from "mongodb";
 import { User } from "./UsersModel";
 
 const dbUri = "mongodb://127.0.0.1:27017/mydatabase";
+// const dbUri = "mongodb://localhost:27017/mydatabase";
 const dbName = "mydatabase";
 
 let usersCollection: Collection<User>;
